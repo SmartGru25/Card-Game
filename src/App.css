@@ -1,0 +1,47 @@
+html {
+  font-size: 20px;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  text-align: center;
+  margin: auto;
+  height: 100vh;
+  justify-content: center;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.score-panel {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.25rem;
+  margin-bottom: 12px;
+}
+
+.guess-btns {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+button {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+}
+button:focus {
+  outline: none;
+}
+button:first-child {
+  margin-right: 12px;
+}
+
+.card-row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
